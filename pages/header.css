@@ -1,0 +1,43 @@
+header {
+  display: flex;
+  height: 3rem;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+  background-color: black;
+}
+
+ul {
+  display: flex;
+  gap: 17px;
+  margin: 10px;
+}
+
+.spacer {
+  flex: 1;
+}
+
+.sim {
+  font-size: 16px;
+  color: green;
+}
+
+.heitor {
+  font-size: 18px;
+  margin-left: 20px;
+  color: white;
+}
+
+@media screen and (min-width: 302px) and (max-width: 700px) {
+  .sim {
+    font-size: 15px;
+  }
+
+  header {
+    justify-content: space-between;
+  }
+
+  .heitor {
+    justify-content: flex-start;
+  }
+}

@@ -1,0 +1,13 @@
+.container {
+  height: 100vh;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .container {
+    height: 100vh;
+    padding-bottom: 10rem;
+  }
+}
